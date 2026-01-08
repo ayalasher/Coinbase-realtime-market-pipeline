@@ -1,0 +1,5 @@
+confluent-kafka[avro,schema-registry]==2.3.0
+orjson==3.9.10
+fastavro==1.9.4
+websocket-client==1.7.0
+python-dotenv==1.0.0

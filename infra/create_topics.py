@@ -1,0 +1,1 @@
+# Creating kafka topic to be used in our confluent managed kafka cluster.
