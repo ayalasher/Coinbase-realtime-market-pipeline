@@ -59,7 +59,7 @@ confluent_config = {
 configured_kafka_producer =  Producer(confluent_config)
 string_serializer = StringSerializer('utf_8')
 
-kafka_topic = "coinbase_ticker"
+kafka_topic = "coinbase_market_streaming"
 
 def delivery_report(err:KafkaError, msg):
     if err is not None:
