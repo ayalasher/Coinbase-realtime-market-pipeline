@@ -99,7 +99,7 @@ def on_message(ws, message):
             callback=delivery_report
         )
         configured_kafka_producer.poll(0)
-        print(f"Message : {json.dumps(data , indent=2)}")
+        # print(f"Message : {json.dumps(data , indent=2)}")
     except Exception as e:
         logger.error(f"An error {e} occured while trying to get the sent message and send it to kafka")
 
